@@ -1,0 +1,176 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    font-size: x-large;
+}
+
+.perfil img {
+    width: 200px;
+    display: block;
+    align-items: center;
+    padding: 10px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nombre {
+    display: block;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:small;
+    padding-left: 5px;
+
+}
+
+section {
+    display: block;
+    margin-bottom: 20px;
+    background-color: #d3d3d3;
+    padding: 10px;
+    border: solid black 5px;
+    align-items: center;
+}
+
+section h3 {
+    display: block;
+    background-color:  rgb(128, 140, 182);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-top: solid black 5px;
+}
+
+main {
+    display: block;
+    padding: 10px;
+    background-color: rgb(128, 140, 182);
+    border: solid black 5px;
+    align-items: center;
+}
+
+main h3 {
+    display: block;
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+    border-top: solid black 5px;
+    margin-top: 10px;
+}
+
+span {
+    font-weight: bolder;
+    
+}
+
+.p1 {
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer h4 {
+    display: flex;
+    justify-content: center;
+}
+
+address {
+    align-items: center;
+    text-align: center;
+}
+
+address img {
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contacto div {
+    display: flex;
+    margin-left: 5px;
+}
+
+.icono {
+    width: 20%;
+    justify-content: center;
+}
+
+.datos {
+    width: 80%;
+    justify-content: center;
+}
+
+.datos span {
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:700px) {
+
+    body {
+        font-size:medium;
+    }
+
+    section {
+        width: 30%;
+        float: left;
+        align-items: center;
+    }
+
+    main {
+        width: 70%;
+        float: left;
+        align-items: center;
+    }
+    
+    .perfil {
+        width: 30%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nombre {
+        width: 70%;
+        height: 100%;
+        display: block;
+        align-items: center;
+        text-align: center;
+        font-size:xx-large;
+
+    }
+
+    section div {
+        display: flex;
+        text-align: center;
+    }
+
+    section img {
+        margin-left: 15px;
+    }
+
+    .cuerpo {
+        display: flex;
+    }
+    
+}
